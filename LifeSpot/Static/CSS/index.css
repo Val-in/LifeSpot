@@ -50,8 +50,12 @@ aside {
     font-size: large;
 }
 
-body{
+body {
     padding-left: 11%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
@@ -69,4 +73,18 @@ input {
 .interactive:hover, .interactive:focus {
     color: blue;
     text-decoration: underline;
+}
+
+.review-container, .review-button {
+    display: inline-block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.review-text {
+    display: block;
+    margin-top: 0.5em;
+    padding-left: 1%;
+    padding-top: 1%;
 }

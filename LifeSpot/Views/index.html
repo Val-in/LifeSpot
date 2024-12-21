@@ -4,20 +4,18 @@
     <meta charset="UTF-8">
     <title>LifeSpot</title>
     <link href="../Static/CSS/index.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" defer src="../Static/JS/index.js"></script>
+    <!-- Внутренний скрипт с вызовами функций -->
+    <script>
+        sessionHandler();
+    </script>
 </head>
 
 <body>
-    <aside id="sidebar">
-        <div class="navbar">
-            <a href="/"><p>Все трансляции</p></a>
-            <a href="/"><p>О проекте</p></a>
-        </div>
-    </aside>
-
     <header class="bordered">
         <h2>LifeSpot — прямые трансляции с улиц</h2>
         <h1 class="interactive">Поиск видео на странице</h1>
-        <input type="text" size="50">
+        <input type="text" oninput="contentFilter() /* Вызов по имени переменной */" size=50>
         <p>Покажем, что происходит прямо сейчас</p>
     </header>
 
@@ -38,11 +36,5 @@
         <a href="https://www.youtube.com/watch?v=srlpC5tmhYs"><button>Нью-Йорк</button></a>
         <a href="https://www.youtube.com/watch?v=JplMzss6_YE&ab_channel=WokiliWanders"><button>Лондон</button></a> -->
     </div>
-
-    <footer>
-        <p>LifeSpot - все права защищены</p>
-        <p>Связаться с нами: contact@lifespot.ru</p>
-    </footer>
-
 </body>
 </html>
