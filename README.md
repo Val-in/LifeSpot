@@ -20,8 +20,8 @@ This project provides a basic interface to watch YouTube livestreams via video I
 - YouTube IFrame Player API
 
 
-📍 To-Do
-Improve UI/UX
-Add stream search functionality
-Mobile responsiveness
-Deploy to a public server
+##📍 To-Do
+- Improve UI/UX
+- Add stream search functionality
+- Mobile responsiveness
+- Deploy to a public server
